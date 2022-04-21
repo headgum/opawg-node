@@ -11,7 +11,7 @@ for (const url of LISTS) {
         .then(res => res.json())
         .then(data => {
             const name = url.split('/').pop().split('.')[0];
-            const fileName = `./data/${name}.json`;
+            const fileName = `data/${name}.json`;
             
             fs.writeFileSync(fileName, JSON.stringify(data, null, 2));
         })

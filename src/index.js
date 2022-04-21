@@ -1,5 +1,7 @@
-import HOST_DATA from '../data/hosts.json' assert { type: 'json' };
-import PREFIX_DATA from '../data/prefixes.json' assert { type: 'json' };
+import { readFileSync } from 'node:fs';
+
+const HOST_DATA = JSON.parse(readFileSync('data/hosts.json'));
+const PREFIX_DATA = JSON.parse(readFileSync('data/prefixes.json'))
 
 export function getHostInfo(url) {
     const _url = url.toLowerCase().trim();
