@@ -1,0 +1,29 @@
+{
+  "name": "opawg-node",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Simple access to OPAWG's useful host and prefix lists",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "node src/download-lists.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/headgum/opawg-node.git"
+  },
+  "keywords": [
+    "podcasts",
+    "opawg"
+  ],
+  "author": "Andrew Pile <andrew@headgum.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/headgum/opawg-node/issues"
+  },
+  "homepage": "https://github.com/headgum/opawg-node#readme",
+  "devDependencies": {
+    "mocha": "^9.2.2",
+    "node-fetch": "^3.2.3"
+  }
+}
