@@ -1,9 +1,9 @@
-import { readFileSync } from 'node:fs';
+const fs = require('fs');
 
-const HOST_DATA = JSON.parse(readFileSync('data/hosts.json'));
-const PREFIX_DATA = JSON.parse(readFileSync('data/prefixes.json'))
+const HOST_DATA = JSON.parse(fs.readFileSync('data/hosts.json'));
+const PREFIX_DATA = JSON.parse(fs.readFileSync('data/prefixes.json'))
 
-export function getHostInfo(url) {
+exports.getHostInfo = (url) => {
     const _url = url.toLowerCase().trim();
 
     for (const hostInfo of HOST_DATA) {
@@ -17,7 +17,7 @@ export function getHostInfo(url) {
     return null
 }
 
-export function getPrefixInfo(url) {
+exports.getPrefixInfo = (url) => {
     const _url = url.toLowerCase().trim();
 
     return PREFIX_DATA

@@ -1,5 +1,5 @@
-import fs from 'node:fs';
-import fetch from 'node-fetch';
+const fs = require('fs');
+const fetch = require('node-fetch');
 
 const LISTS = [
     'https://raw.githubusercontent.com/opawg/podcast-hosts/master/src/hosts.json',
