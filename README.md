@@ -1,6 +1,6 @@
 # opawg-node
 
-Simple interface to check URLs against the OPAWG [podcast-host](https://github.com/opawg/podcast-hosts) and [podcast-prefixes](https://github.com/opawg/podcast-prefixes) lists. The list is updated whenever `npm build` runs. If you need more real time results, try [podcast-privacy.com](https://podcast-privacy.com/)'s API.
+Simple interface to check URLs against the OPAWG [podcast-host](https://github.com/opawg/podcast-hosts) and [podcast-prefixes](https://github.com/opawg/podcast-prefixes) lists. The list is updated on each release. If you need more real time results, try [podcast-privacy.com](https://podcast-privacy.com/)'s API.
 
 ### Install
 
