@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "mocha",
-    "install": "node src/download-lists.js"
+    "install": "node src/download-lists.js",
+    "build": "node src/download-lists.js"
   },
   "repository": {
     "type": "git",
