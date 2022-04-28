@@ -1,4 +1,4 @@
-[
+module.exports = [
   {
     "pattern": "3speak.tv",
     "rss-pattern": "3speak.tv",

@@ -11,9 +11,10 @@ for (const url of LISTS) {
         .then(res => res.json())
         .then(data => {
             const name = url.split('/').pop().split('.')[0];
-            const fileName = `data/${name}.json`;
-            
-            fs.writeFileSync(fileName, JSON.stringify(data, null, 2));
+            const fileName = `data/${name}.js`;
+
+            const outputStr = 'module.exports = ' + JSON.stringify(data, null, 2);
+            fs.writeFileSync(fileName, outputStr);
         })
         .catch(err => console.error(err));
 }

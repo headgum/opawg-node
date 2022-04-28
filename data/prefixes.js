@@ -1,4 +1,4 @@
-[
+module.exports = [
   {
     "prefixpattern": "adbarker.com",
     "prefixname": "AdBarker",
