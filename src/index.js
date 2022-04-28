@@ -1,7 +1,7 @@
 const fs = require('fs');
 
-const HOST_DATA = JSON.parse(fs.readFileSync('data/hosts.json'));
-const PREFIX_DATA = JSON.parse(fs.readFileSync('data/prefixes.json'))
+const HOST_DATA = JSON.parse(fs.readFileSync(`${__dirname}/../data/hosts.json`));
+const PREFIX_DATA = JSON.parse(fs.readFileSync(`${__dirname}/../data/prefixes.json`));
 
 exports.getHostInfo = (url) => {
     const _url = url.toLowerCase().trim();
