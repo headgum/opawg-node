@@ -7,9 +7,11 @@ exports.getHostInfo = (url) => {
     const _url = url.toLowerCase().trim();
 
     for (const hostInfo of HOST_DATA) {
-        const _rssPattern = hostInfo['rss-pattern'] ? hostInfo['rss-pattern'] : hostInfo['pattern'];
-        
-        if (_url.includes(_rssPattern)) {
+        if (hostInfo['rss-pattern'] && _url.includes(hostInfo['rss-pattern'])) {
+            return hostInfo;
+        }
+
+        if (_url.includes(hostInfo['pattern'])) {
             return hostInfo;
         }
     }
