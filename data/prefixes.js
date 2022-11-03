@@ -44,6 +44,17 @@ module.exports = [
     "notes": "Attribution: https://chartable.com/"
   },
   {
+    "prefixpattern": "claritaspod.com/measure",
+    "prefixname": "Claritas",
+    "iab": "0",
+    "abilities_stats": "1",
+    "abilities_tracking": "1",
+    "abilities_dynamicaudio": "0",
+    "prefixurl": "https://claritas.com/podcast-attribution-audience-identification/",
+    "prefixprivacyurl": "https://claritas.com/privacy-legal/",
+    "notes": ""
+  },
+  {
     "prefixpattern": "mgln.ai/track",
     "prefixname": "Magellan AI",
     "iab": "0",
@@ -56,13 +67,24 @@ module.exports = [
   },
   {
     "prefixpattern": ".proxycast.org",
-    "prefixname": "Mediamétrie",
+    "prefixname": "Médiamétrie",
     "iab": "0",
     "abilities_stats": "1",
     "abilities_tracking": "0",
     "abilities_dynamicaudio": "0",
     "prefixurl": "https://www.mediametrie.fr/en/estat-podcast",
     "prefixprivacyurl": "http://www.mediametrie.fr/en/attention-participants-mediametrie-interview",
+    "notes": ""
+  },
+  {
+    "prefixpattern": "op3.dev",
+    "prefixname": "OP3",
+    "iab": "0",
+    "abilities_stats": "1",
+    "abilities_tracking": "0",
+    "abilities_dynamicaudio": "0",
+    "prefixurl": "https://op3.dev/",
+    "prefixprivacyurl": "https://op3.dev/privacy",
     "notes": ""
   },
   {
@@ -77,6 +99,17 @@ module.exports = [
     "notes": "No mention of attribution visible on their website"
   },
   {
+    "prefixpattern": "p.podderapp.com",
+    "prefixname": "Podder",
+    "iab": "0",
+    "abilities_stats": "1",
+    "abilities_tracking": "1",
+    "abilities_dynamicaudio": "0",
+    "prefixurl": "https://www.podderapp.com",
+    "prefixprivacyurl": "https://www.podderapp.com\\/privacy-policy",
+    "notes": ""
+  },
+  {
     "prefixpattern": "growx.podkite.com",
     "prefixname": "Podkite",
     "iab": "0",
@@ -85,6 +118,17 @@ module.exports = [
     "abilities_dynamicaudio": "0",
     "prefixurl": "https://docs.podkite.com/download-analytics/setup/",
     "prefixprivacyurl": "https://podkite.com/privacy",
+    "notes": ""
+  },
+  {
+    "prefixpattern": "verifi.podscribe.com/rss",
+    "prefixname": "Podscribe",
+    "iab": "0",
+    "abilities_stats": "1",
+    "abilities_tracking": "1",
+    "abilities_dynamicaudio": "0",
+    "prefixurl": "https://podscribe.com/blog/impression-verification-mb45x",
+    "prefixprivacyurl": "https://podcasters.podscribe.ai/privacy-policy/",
     "notes": ""
   },
   {
