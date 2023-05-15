@@ -55,6 +55,28 @@ module.exports = [
     "notes": ""
   },
   {
+    "prefixpattern": "t.glystn.com",
+    "prefixname": "Glystn",
+    "iab": "0",
+    "abilities_stats": "1",
+    "abilities_tracking": "1",
+    "abilities_dynamicaudio": "0",
+    "prefixurl": "https://glystn.com/",
+    "prefixprivacyurl": "https://glystn.com/product-privacy-policy.html",
+    "notes": ""
+  },
+  {
+    "prefixpattern": "2.gum.fm",
+    "prefixname": "Gumshoe",
+    "iab": "0",
+    "abilities_stats": "0",
+    "abilities_tracking": "1",
+    "abilities_dynamicaudio": "0",
+    "prefixurl": "https://gumball.fm/help/podcasters/getting-started-with-gumball/360008116394#gumshoe-gumballs-campaign-tracking-solution",
+    "prefixprivacyurl": "https://gumball.fm/privacy",
+    "notes": ""
+  },
+  {
     "prefixpattern": "mgln.ai/track",
     "prefixname": "Magellan AI",
     "iab": "0",
@@ -121,7 +143,40 @@ module.exports = [
     "notes": ""
   },
   {
-    "prefixpattern": "verifi.podscribe.com/rss",
+    "prefixpattern": "pdrl.fm/",
+    "prefixname": "Podroll",
+    "iab": "0",
+    "abilities_stats": "0",
+    "abilities_tracking": "1",
+    "abilities_dynamicaudio": "1",
+    "prefixurl": "https://podroll.fm",
+    "prefixprivacyurl": "https://podroll.fm/privacy",
+    "notes": ""
+  },
+  {
+    "prefixpattern": "verifi.podscribe.com/rss/p",
+    "prefixname": "Podscribe",
+    "iab": "0",
+    "abilities_stats": "1",
+    "abilities_tracking": "1",
+    "abilities_dynamicaudio": "0",
+    "prefixurl": "https://podscribe.com/blog/impression-verification-mb45x",
+    "prefixprivacyurl": "https://podcasters.podscribe.ai/privacy-policy/",
+    "notes": ""
+  },
+  {
+    "prefixpattern": "pscrb.fm/rss/p",
+    "prefixname": "Podscribe",
+    "iab": "0",
+    "abilities_stats": "1",
+    "abilities_tracking": "1",
+    "abilities_dynamicaudio": "0",
+    "prefixurl": "https://podscribe.com/blog/impression-verification-mb45x",
+    "prefixprivacyurl": "https://podcasters.podscribe.ai/privacy-policy/",
+    "notes": ""
+  },
+  {
+    "prefixpattern": "suprefix.fm/",
     "prefixname": "Podscribe",
     "iab": "0",
     "abilities_stats": "1",
@@ -174,5 +229,16 @@ module.exports = [
     "prefixurl": "https://analytics.podtrac.com",
     "prefixprivacyurl": "https://analytics.podtrac.com/privacy-policy-gdrp",
     "notes": "No mention of attribution visible on their website"
+  },
+  {
+    "prefixpattern": "a.pdcst.to",
+    "prefixname": "Voxalyze",
+    "iab": "0",
+    "abilities_stats": "1",
+    "abilities_tracking": "1",
+    "abilities_dynamicaudio": "0",
+    "prefixurl": "https://voxalyze.com",
+    "prefixprivacyurl": "https://voxalyze.com/legal/privacy-policy/",
+    "notes": "https://help.voxalyze.com/article/61-tracking-prefix"
   }
 ]
