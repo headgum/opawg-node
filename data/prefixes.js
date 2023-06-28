@@ -66,7 +66,7 @@ module.exports = [
     "notes": ""
   },
   {
-    "prefixpattern": "2.gum.fm",
+    "prefixpattern": ".gum.fm",
     "prefixname": "Gumshoe",
     "iab": "0",
     "abilities_stats": "0",
@@ -240,5 +240,16 @@ module.exports = [
     "prefixurl": "https://voxalyze.com",
     "prefixprivacyurl": "https://voxalyze.com/legal/privacy-policy/",
     "notes": "https://help.voxalyze.com/article/61-tracking-prefix"
+  },
+  {
+    "prefixpattern": "prfx.byspotify.com",
+    "prefixname": "Spotify",
+    "iab": "0",
+    "abilities_stats": "1",
+    "abilities_tracking": "1",
+    "abilities_dynamicaudio": "0",
+    "prefixurl": "https://ads.spotify.com/en-US/news-and-insights/introducing-spotify-ad-analytics/",
+    "prefixprivacyurl": "https://www.spotify.com/us/legal/ad-analytics-privacy-policy/",
+    "notes": "https://help.adanalytics.spotify.com/install-the-spotify-ad-analytics-podcast-prefix"
   }
 ]
