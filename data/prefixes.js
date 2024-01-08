@@ -55,6 +55,17 @@ module.exports = [
     "notes": ""
   },
   {
+    "prefixpattern": "cohst.app/pdcst",
+    "prefixname": "CoHost Prefix",
+    "iab": "1",
+    "abilities_stats": "1",
+    "abilities_tracking": "1",
+    "abilities_dynamicaudio": "0",
+    "prefixurl": "https://www.cohostpodcasting.com/cohost-prefix",
+    "prefixprivacyurl": "https://www.cohostpodcasting.com/privacy-policy",
+    "notes": "Attribution: https://cohost.helpscoutdocs.com/article/103-how-to-add-the-cohost-prefix-to-your-show"
+  },
+  {
     "prefixpattern": "t.glystn.com",
     "prefixname": "Glystn",
     "iab": "0",
@@ -84,7 +95,18 @@ module.exports = [
     "abilities_tracking": "0",
     "abilities_dynamicaudio": "0",
     "prefixurl": "https://www.magellan.ai/pages/magellan-ai-verified-downloads",
-    "prefixprivacyurl": "https://www.magellan.ai\\/privacy",
+    "prefixprivacyurl": "https://www.magellan.ai/privacy",
+    "notes": ""
+  },
+  {
+    "prefixpattern": "mgln.ai/e",
+    "prefixname": "Magellan AI",
+    "iab": "0",
+    "abilities_stats": "1",
+    "abilities_tracking": "0",
+    "abilities_dynamicaudio": "0",
+    "prefixurl": "https://www.magellan.ai/pages/magellan-ai-verified-downloads",
+    "prefixprivacyurl": "https://www.magellan.ai/privacy",
     "notes": ""
   },
   {
