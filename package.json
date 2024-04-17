@@ -1,6 +1,6 @@
 {
   "name": "opawg-node",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Simple access to OPAWG's useful host and prefix lists",
   "main": "src/index.js",
   "scripts": {

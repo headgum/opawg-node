@@ -11,6 +11,17 @@ module.exports = [
     "notes": "Assume that this service does statistics as well as dynamic audio. (That's not very clear from the website)."
   },
   {
+    "prefixpattern": "arttrk.com/p",
+    "prefixname": "ArtsAI",
+    "iab": "0",
+    "abilities_stats": "0",
+    "abilities_tracking": "0",
+    "abilities_dynamicaudio": "0",
+    "prefixurl": "https://artsai.com",
+    "prefixprivacyurl": "https://claritas.com/privacy-legal",
+    "notes": ""
+  },
+  {
     "prefixpattern": "media.blubrry.com",
     "prefixname": "Blubrry",
     "iab": "1",
@@ -55,6 +66,17 @@ module.exports = [
     "notes": ""
   },
   {
+    "prefixpattern": "cohst.app/pdcst",
+    "prefixname": "CoHost Prefix",
+    "iab": "1",
+    "abilities_stats": "1",
+    "abilities_tracking": "1",
+    "abilities_dynamicaudio": "0",
+    "prefixurl": "https://www.cohostpodcasting.com/cohost-prefix",
+    "prefixprivacyurl": "https://www.cohostpodcasting.com/privacy-policy",
+    "notes": "Attribution: https://cohost.helpscoutdocs.com/article/103-how-to-add-the-cohost-prefix-to-your-show"
+  },
+  {
     "prefixpattern": "t.glystn.com",
     "prefixname": "Glystn",
     "iab": "0",
@@ -84,7 +106,18 @@ module.exports = [
     "abilities_tracking": "0",
     "abilities_dynamicaudio": "0",
     "prefixurl": "https://www.magellan.ai/pages/magellan-ai-verified-downloads",
-    "prefixprivacyurl": "https://www.magellan.ai\\/privacy",
+    "prefixprivacyurl": "https://www.magellan.ai/privacy",
+    "notes": ""
+  },
+  {
+    "prefixpattern": "mgln.ai/e",
+    "prefixname": "Magellan AI",
+    "iab": "0",
+    "abilities_stats": "1",
+    "abilities_tracking": "0",
+    "abilities_dynamicaudio": "0",
+    "prefixurl": "https://www.magellan.ai/pages/magellan-ai-verified-downloads",
+    "prefixprivacyurl": "https://www.magellan.ai/privacy",
     "notes": ""
   },
   {
@@ -229,6 +262,17 @@ module.exports = [
     "prefixurl": "https://analytics.podtrac.com",
     "prefixprivacyurl": "https://analytics.podtrac.com/privacy-policy-gdrp",
     "notes": "No mention of attribution visible on their website"
+  },
+  {
+    "prefixpattern": "prefix.up.audio/s",
+    "prefixname": "United Podcasters",
+    "iab": "0",
+    "abilities_stats": "0",
+    "abilities_tracking": "0",
+    "abilities_dynamicaudio": "0",
+    "prefixurl": "https://up.audio",
+    "prefixprivacyurl": "https://up.audio/privacy",
+    "notes": ""
   },
   {
     "prefixpattern": "a.pdcst.to",
