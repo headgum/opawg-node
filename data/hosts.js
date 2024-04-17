@@ -588,6 +588,20 @@ module.exports = [
     "pi-slug": "julephosting.de"
   },
   {
+    "pattern": "katapod.com",
+    "rss-pattern": "feeds.katapod.com",
+    "hostname": "Katapod",
+    "retailer": "1",
+    "iab": "0",
+    "abilities_stats": "1",
+    "abilities_tracking": "0",
+    "abilities_dynamicaudio": "1",
+    "hosturl": "https://www.katapod.com/",
+    "hostprivacyurl": "https://www.katapod.com/policy/privacy-policy",
+    "notes": "Dynamic audio described in https://castos.com/dynamic-ad-insertion-for-podcasts/",
+    "pi-slug": "Katapod"
+  },
+  {
     "pattern": "media.adknit.com",
     "rss-pattern": "",
     "hostname": "knit",
@@ -1034,6 +1048,20 @@ module.exports = [
     "hostprivacyurl": "https://pod.space/privacy",
     "notes": "",
     "pi-slug": "pod.space"
+  },
+  {
+    "pattern": "podtoo.com",
+    "rss-pattern": ".podtoo.com",
+    "hostname": "PodToo",
+    "retailer": "1",
+    "iab": "0",
+    "abilities_stats": "1",
+    "abilities_tracking": "1",
+    "abilities_dynamicaudio": "1",
+    "hosturl": "https://www.podtoo.com/",
+    "hostprivacyurl": "https://www.podtoo.com/en/privacy",
+    "notes": "",
+    "pi-slug": "PodToo"
   },
   {
     "pattern": "assets.primaverasound.com",
@@ -2636,5 +2664,47 @@ module.exports = [
     "hosturl": "https://jellycast.com/",
     "notes": "",
     "pi-slug": ""
+  },
+  {
+    "pattern": "jamit.app",
+    "rss-pattern": "feed.jamit.app",
+    "hostname": "Jamit",
+    "retailer": "1",
+    "iab": "0",
+    "abilities_stats": "1",
+    "abilities_tracking": "0",
+    "abilities_dynamicaudio": "0",
+    "hosturl": "https://jamit.app/",
+    "hostprivacyurl": "https://jamit.app/legal/privacy",
+    "notes": "",
+    "pi-slug": "jamit"
+  },
+  {
+    "pattern": "serve.podhome.fm",
+    "rss-pattern": "serve.podhome.fm",
+    "hostname": "Podhome",
+    "retailer": "1",
+    "iab": "0",
+    "abilities_stats": "1",
+    "abilities_tracking": "0",
+    "abilities_dynamicaudio": "0",
+    "hosturl": "https://podhome.fm/",
+    "hostprivacyurl": "https://podhome.fm//privacy",
+    "notes": "",
+    "pi-slug": "podhome"
+  },
+  {
+    "pattern": "redirect.zencastr.com",
+    "rss-pattern": "feeds.zencastr.com",
+    "hostname": "Zencastr",
+    "retailer": "1",
+    "iab": "0",
+    "abilities_stats": "0",
+    "abilities_tracking": "0",
+    "abilities_dynamicaudio": "0",
+    "hosturl": "https://www.zencastr.com",
+    "hostprivacyurl": "https://www.zencastr.com/privacy-policy",
+    "notes": "",
+    "pi-slug": "zencastr.com"
   }
 ]
