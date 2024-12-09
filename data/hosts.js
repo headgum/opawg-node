@@ -100,7 +100,7 @@ module.exports = [
   {
     "pattern": "anchor.fm",
     "rss-pattern": "anchor.fm",
-    "hostname": "Spotify for Podcasters",
+    "hostname": "Spotify for Creators",
     "retailer": "1",
     "iab": "1",
     "abilities_stats": "1",
@@ -724,6 +724,20 @@ module.exports = [
     "abilities_dynamicaudio": "0",
     "hosturl": "https://www.nhs.uk",
     "hostprivacyurl": "https://www.nhs.uk/our-policies/privacy-policy/",
+    "notes": "",
+    "pi-slug": ""
+  },
+  {
+    "pattern": "api.mumbler.io",
+    "rss-pattern": "api.mumbler.io",
+    "hostname": "Mumbler",
+    "retailer": "1",
+    "iab": "0",
+    "abilities_stats": "1",
+    "abilities_tracking": "0",
+    "abilities_dynamicaudio": "0",
+    "hosturl": "https://mumbler.io",
+    "hostprivacyurl": "https://mumbler.io/en/privacy-policy/",
     "notes": "",
     "pi-slug": ""
   },
