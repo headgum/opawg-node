@@ -66,6 +66,17 @@ module.exports = [
     "notes": ""
   },
   {
+    "prefixpattern": "clrtpod.com/m",
+    "prefixname": "Claritas",
+    "iab": "0",
+    "abilities_stats": "1",
+    "abilities_tracking": "1",
+    "abilities_dynamicaudio": "0",
+    "prefixurl": "https://claritas.com/podcast-attribution-audience-identification/",
+    "prefixprivacyurl": "https://claritas.com/privacy-legal/",
+    "notes": ""
+  },
+  {
     "prefixpattern": "cohst.app/pdcst",
     "prefixname": "CoHost Prefix",
     "iab": "1",
@@ -101,22 +112,22 @@ module.exports = [
   {
     "prefixpattern": "mgln.ai/track",
     "prefixname": "Magellan AI",
-    "iab": "0",
+    "iab": "1",
     "abilities_stats": "1",
-    "abilities_tracking": "0",
+    "abilities_tracking": "1",
     "abilities_dynamicaudio": "0",
-    "prefixurl": "https://www.magellan.ai/pages/magellan-ai-verified-downloads",
+    "prefixurl": "https://www.magellan.ai/prefix",
     "prefixprivacyurl": "https://www.magellan.ai/privacy",
     "notes": ""
   },
   {
     "prefixpattern": "mgln.ai/e",
     "prefixname": "Magellan AI",
-    "iab": "0",
+    "iab": "1",
     "abilities_stats": "1",
-    "abilities_tracking": "0",
+    "abilities_tracking": "1",
     "abilities_dynamicaudio": "0",
-    "prefixurl": "https://www.magellan.ai/pages/magellan-ai-verified-downloads",
+    "prefixurl": "https://www.magellan.ai/prefix",
     "prefixprivacyurl": "https://www.magellan.ai/privacy",
     "notes": ""
   },

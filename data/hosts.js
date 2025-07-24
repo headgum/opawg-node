@@ -106,7 +106,7 @@ module.exports = [
     "abilities_stats": "1",
     "abilities_tracking": "0",
     "abilities_dynamicaudio": "1",
-    "hosturl": "https://podcasters.spotify.com/",
+    "hosturl": "https://creators.spotify.com/",
     "hostprivacyurl": "https://spotify.com/privacy",
     "notes": "Dynamic ad insertion: https://medium.com/anchor/introducing-anchor-sponsorships-the-podcast-advertising-platform-for-everyone-512870baa32b",
     "pi-slug": "Anchor"
@@ -980,7 +980,7 @@ module.exports = [
     "pi-slug": "podiant.co"
   },
   {
-    "pattern": "cdn.podigee.com",
+    "pattern": "podigee-cdn.net",
     "rss-pattern": "podigee.io",
     "hostname": "Podigee",
     "retailer": "1",
@@ -1180,7 +1180,7 @@ module.exports = [
     "rss-pattern": ".rss.com",
     "hostname": "RSS.com",
     "retailer": "1",
-    "iab": "0",
+    "iab": "1",
     "abilities_stats": "1",
     "abilities_tracking": "0",
     "abilities_dynamicaudio": "0",
@@ -2347,15 +2347,30 @@ module.exports = [
     "pi-slug": ""
   },
   {
+    "pattern": "voicemi.es",
+    "rss-pattern": "",
+    "hostname": "VoiceMi",
+    "retailer": "1",
+    "iab": "1",
+    "abilities_stats": "1",
+    "abilities_tracking": "1",
+    "abilities_dynamicaudio": "1",
+    "hosturl": "https://voicemi.es/",
+    "hostprivacyurl": "https://voicemi.es/privacidad",
+    "notes": "",
+    "pi-slug": ""
+  },
+  {
     "pattern": "cuonda.com",
     "rss-pattern": "",
     "hostname": "Cuonda",
     "retailer": "1",
-    "iab": "0",
-    "abilities_stats": "0",
-    "abilities_tracking": "0",
-    "abilities_dynamicaudio": "0",
+    "iab": "1",
+    "abilities_stats": "1",
+    "abilities_tracking": "1",
+    "abilities_dynamicaudio": "1",
     "hosturl": "https://cuonda.com/",
+    "hostprivacyurl": "https://cuonda.com/contenido/politica-de-privacidad",
     "notes": "",
     "pi-slug": ""
   },
