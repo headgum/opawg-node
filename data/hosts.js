@@ -434,6 +434,20 @@ module.exports = [
     "pi-slug": "thisisdax.com"
   },
   {
+    "pattern": "donecast.com",
+    "rss-pattern": "donecast.com",
+    "hostname": "DoneCast",
+    "retailer": "1",
+    "iab": "0",
+    "abilities_stats": "1",
+    "abilities_tracking": "0",
+    "abilities_dynamicaudio": "0",
+    "hosturl": "https://donecast.com/",
+    "hostprivacyurl": "https://donecast.com/privacy",
+    "notes": "",
+    "pi-slug": "donecast"
+  },
+  {
     "pattern": "entale.co",
     "rss-pattern": "feeds.entale.co",
     "hostname": "Entale",
@@ -502,6 +516,20 @@ module.exports = [
     "hostprivacyurl": "https://fireside.fm/privacy",
     "notes": "",
     "pi-slug": "Fireside.fm"
+  },
+  {
+    "pattern": "flightcast.com",
+    "rss-pattern": ".flightcast.com",
+    "hostname": "Flightcast",
+    "retailer": "1",
+    "iab": "0",
+    "abilities_stats": "1",
+    "abilities_tracking": "0",
+    "abilities_dynamicaudio": "1",
+    "hosturl": "https://flightcast.com",
+    "hostprivacyurl": "https://flightcast.com/privacy-policy",
+    "notes": "DAI described on landing page: https://flightcast.com/#monetize",
+    "pi-slug": "flightcast.com"
   },
   {
     "pattern": "flumotion.com",
@@ -984,7 +1012,7 @@ module.exports = [
     "rss-pattern": "podigee.io",
     "hostname": "Podigee",
     "retailer": "1",
-    "iab": "0",
+    "iab": "1",
     "abilities_stats": "1",
     "abilities_tracking": "1",
     "abilities_dynamicaudio": "1",
@@ -2735,5 +2763,19 @@ module.exports = [
     "hostprivacyurl": "https://www.zencastr.com/privacy-policy",
     "notes": "",
     "pi-slug": "zencastr.com"
+  },
+  {
+    "pattern": ".riverside.fm",
+    "rss-pattern": ".riverside.fm",
+    "hostname": "Riverside",
+    "retailer": "1",
+    "iab": "0",
+    "abilities_stats": "0",
+    "abilities_tracking": "0",
+    "abilities_dynamicaudio": "0",
+    "hosturl": "https://riverside.com",
+    "hostprivacyurl": "https://riverside.com/privacy-policy",
+    "notes": "",
+    "pi-slug": "riverside"
   }
 ]
